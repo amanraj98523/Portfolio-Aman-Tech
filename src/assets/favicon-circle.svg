@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="favicon">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="32" cy="32" r="32" />
+    </clipPath>
+  </defs>
+
+  <!-- Transparent background so corners remain transparent in browsers -->
+  <rect width="100%" height="100%" fill="transparent" />
+
+  <!-- Reference the profile image in the same folder; preserveAspectRatio ensures a nice crop -->
+  <image href="profile2.jpg" width="64" height="64" clip-path="url(#circle)" preserveAspectRatio="xMidYMid slice" />
+</svg>

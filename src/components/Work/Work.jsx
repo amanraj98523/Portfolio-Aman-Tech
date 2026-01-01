@@ -78,7 +78,7 @@ const Work = () => {
             </div>
 
             <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+              <div className="w-full flex justify-center bg-gray-900 p-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}

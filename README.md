@@ -4,7 +4,7 @@ A fully responsive and **animated portfolio website** developed with  **React.js
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+🔗 [View Portfolio Live](https://effervescent-llama-271d35.netlify.app/)
 
 ## 🛠️ Tech Stack
 

@@ -42,9 +42,10 @@ import bb_image from './assets/education_logo/bb_image.png';
 import masai from './assets/education_logo/masai_logo.png';
 
 // Project Section Logo's
-
+import blinkitlogo from './assets/work_logo/Blinkitlogo.png';
+import Blinkit1 from './assets/work_logo/Blinkit1.png';
 import githubdetLogo from './assets/work_logo/image.png';
-import algorithmlogo from './assets/work_logo/algorithmlogo.png'
+import algorithmlogo from './assets/work_logo/algorithmlogo.png';
 
 
 
@@ -210,6 +211,17 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+     {
+      id: 0,
+      title: "BlinkIt Clone Ecommerce",
+      description:
+        "Build a complete e-commerce platform that looks like Blinkit using the MERN stack! In this project, we will create an online shopping site with key features, including product uploads, an admin panel, and management for categories and subcategories. We will use access and refresh tokens to establish secure user authentication. You will also learn how to set up password recovery, OTP-based email verification, and secure authentication processes. This project is a great way to improve your skills in MongoDB, Express, React, and Node.js.",
+      image: Blinkit1,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "MongoDB", "Express","Node.js"],
+      github: "https://github.com/amanraj98523/Binkeyit",
+      webapp: "https://binkeyit-full-stack-ydrn.vercel.app/",
+      
+    },
     {
       id: 0,
       title: "GitHub Profile Detective",

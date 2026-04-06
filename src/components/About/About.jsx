@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.jpg';
+import React from "react";
+import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
+import profileImage from "../../assets/profile2.jpg";
 
 const About = () => {
   return (
@@ -24,11 +24,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={[
-                'Fullstack Developer',
-                'UI Developer',
-                'Coder',
-              ]}
+              text={["Fullstack Developer", "UI Developer", "Coder"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -48,18 +44,17 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1X67oVj9PUAd0siWxt8CPx3a0hi7ujUfD/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: "linear-gradient(90deg, #8245ec, #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD CV
           </a>
-          
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
